@@ -1,0 +1,6 @@
+{
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "saucelabURL": "https://www.saucedemo.com/",
+    "shoping_items" : ["Sauce Labs Backpack", "Sauce Labs Bike Light"]
+}

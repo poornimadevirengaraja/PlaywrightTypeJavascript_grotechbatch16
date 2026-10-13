@@ -1,0 +1,45 @@
+1. Create a folder with name as "AutomationProjectPractice"
+2. Open "AutomationProjectPractice" with integrated terminal install playwright with below command
+
+   -> keep press enter, and go with all default option.
+   -> wait till see Happy Hacking Message on console.
+   -> playwright installation is successful.
+
+3. Create a folder structure for Page Object model framework.
+
+   AutomationProjectPractice
+   |
+   |---- pages
+   |       |----saucelab
+   |       |        | --- loginPageLocator.ts (It will store locator of loginpage)
+   |       |        | --- loginPage.ts (it will contains all method of loginpage)
+   |       |----common 
+   |       |      |  -- BasePage.ts (This will page fixture and contains some methods, navigate())
+   |       |      |  -- PageManager.ts (This will all pages object, we can accees all pages using page Manager)
+   |  
+   | --- fixtures
+   |        |  -- baseFixture.ts (It will contain all fixture setup and teardown for each of the test cases.)
+   |
+   | --- testdata
+   |        | --- testdata.ts (It will contains all test data for test cases.)
+   |        
+   | --- unitities
+   |         | ---- Utils.ts (it will help to read excel or JSON file)
+   |
+   | --- tests (It will contains all test cases )
+   |      | ---saucelab
+   |             | --- saucelab_login.spec.ts 
+   |
+   |
+   | --- playwright.config.ts (All playwright config is available in this file.)
+   |
+   | --- package.json (It contains all dependecy packages intallation)
+   | --- package-lock.json (it contains pacakge info)
+   |
+   | --- .env.qa (contains all qa environments values)
+   | --- .env.stage (contains all stage environments values)
+   | --- .env.prod (contains all prod environments values)
+   | 
+   | -- playwright-report
+    
+

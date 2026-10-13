@@ -1,0 +1,11 @@
+First Prompt:
+https://sqatools.in/automation-practice-page/
+Create comprehensive test plan for this website to automate in cucumber framework
+
+
+second prompt: 
+Automate all the test cases one by one using the Playwright Cucumber framework. Install all the prerequisites for the Playwright Cucumber framework with the Page Object Model. 
+
+
+Third Prompt :
+Explain this entire framework with a step-by-step process, and also include the steps to create this framework from scratch for a 5-year-old kid. Add all those steps in a README file so anyone can easily use this framework.  We require generating some image diagram flow as well to understand the framework flow. 

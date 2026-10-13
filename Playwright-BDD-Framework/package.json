@@ -1,0 +1,26 @@
+{
+  "name": "sqatools-playwright-cucumber",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cucumber and Playwright POM tests for the SQA Tools Automation Practice Page",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags \"@smoke\"",
+    "test:forms": "cucumber-js --tags \"@page or @comment\"",
+    "test:widgets": "cucumber-js --tags \"@widgets\"",
+    "test:matrix": "node scripts/test-matrix.cjs",
+    "typecheck": "tsc --noEmit",
+    "install:browsers": "playwright install chromium firefox webkit"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@types/node": "^24.0.0",
+    "playwright": "^1.63.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

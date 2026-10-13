@@ -1,0 +1,30 @@
+- Installation and configuration.
+- Playwright for VScode plugin Installation.
+- Basic walk through of playwright playwright framework.
+- Execution with different browser with and without headless mode.
+- Automation with repo with Traceviwer and video attached.
+- Commandline test cases execution with headless or without headless.
+- Create a test cases file to dummy website and execute it.
+- Execute test cases with interactive UI
+  -> npx playwright test --ui
+
+- Execute test case with specific browser and heademode.
+  -> npx playwright test --project=chromium --headed
+
+- Execute specific test file from command.
+   -> npx playwright test Dummywebsite.spec.ts
+
+- show report via terminal using command 
+   -> npx playwright show-report
+
+- Execute specific test cases from file.
+  -> npx playwright test --grep "get started link" --project=chromium --headed 
+
+- Execute test cases in debug mode to debug the failures.
+   -> npx playwright test  --project=chromium --headed --debug
+
+
+- Xpath and CSS Fundamentals with examples
+   -> 
+
+https://sqatools.in/playwright-page-object-model/

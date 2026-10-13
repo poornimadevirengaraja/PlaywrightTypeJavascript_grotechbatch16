@@ -1,0 +1,36 @@
+
+// Core components of API automation Framework
+
+1. api
+     - common
+        - APIManager.ts
+        - BaseAPI.ts
+             - get_method
+             - post_method
+             - put_method
+             - patch_method
+             - delete_method
+        
+     - apiclass
+          -restfulAPI.ts
+          -gorestAPI.ts
+          -dummyJsonAPI.ts
+2. fixture
+     - baseAPIfixture.ts
+
+3. tests
+     - APITestcases
+        - restful-api-testcases.spec.ts
+        - gorest-api-testcases.spec.ts
+        - dummyJsonAPI-testcases.spec.ts
+
+4. testdata
+     - api-test-data.ts
+
+5. untilies
+     - untils.ts
+          - read_excel_data
+
+6. package.json : its already available 
+7. package-lock.json : its already available
+8. playwright.config.ts : its already available

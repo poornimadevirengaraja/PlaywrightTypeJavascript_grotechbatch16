@@ -1,0 +1,98 @@
+XPath and its methods.
+// It is one of the locator to identify the elements in the DOm strucuture
+// by travercing the node and in DOM strucuture.
+
+1. Absolute XPath : This type of xpath follows complete DOM structure to indentify the
+              element on given page.
+        e.g. /html/body/div[1]/div[1]/div/main/article/div/div[5]/input[2]
+        -> not recommeded due to unstability.
+
+2. Relative XPath : This type of xpath focus on one specific attribute of the element
+                  and indentify it uniquely.
+        e.g. //tagname[@attribute='value']
+        -> //input[@id='destcity']
+        -> //input[@id='eamil']
+
+
+i). Text method(): identify the element by text value.
+                  e.g.   //tagname[text()='text value']
+                  ->     //a[text()='Automation Practice Page']
+                  ->     (//b[text()='Street address*'])[1]
+ 
+ii). contains method: indentify the element by partial text value or partial attribute value
+                  e.g.  //tagname[contains(text(), 'partial text value')]
+                  -> //h1[contains(text(), 'Dummy Ticket')] 
+                  -> //h2[contains(text(), 'Passenger D')]
+
+                  e.g.  //tagname[contains(@attribute, 'partial value')]
+                  ->  //h1[contains(@class, 'entry-t')]
+                  -> //input[contains(@id, 'billing_n')]
+
+iii). normalize-space method : ignore unwated spaces from element
+                  e.g. //tagname[normalize-space()='text value']
+                  -> //button[normalize-space()='Login']
+                  -> //h1[normalize-space()='Dummy Ticket Booking Website']
+
+
+###########################################################
+// Advance XPath Method :
+
+1. parent : it can identify the parent element with the referece of child.
+            e.g. //childtag[@tagname='value']/parent::parent_tag[@attribute='value']
+            -> //td[text()='Pune']/parent::tr
+            -> //input[@value='radio_123']/parent::li
+            -> //input[@value='radio_123']/parent::li/parent::ul/parent::div
+            -> //td[text()='Pune']/parent::tr//input[@type='checkbox']
+
+            / : move one level down
+            // : move any level down for grand child elements.
+            
+2. ancestor : It can indentify the element with the referece of any of grand child element
+             e.g. //childtag[@tagname='value']/ancestor::ancestor_tag[@attribute='value'] 
+             -> //input[@value='radio_123']/ancestor::div[@align='left']
+
+3. following : Using following method we can identify any element which is available below side of reference element.
+           e.g -> //reftag[@tagname='value']/following::tar_tag[@attribute='value'] 
+              -> //input[@id='fromcity']/following::input[@id='billing_name']
+              -> //label[text()='From City']/following::input[@name="fromcity"]
+              -> //span[text()='Departure']/following::p[@data-cy="departureDate"]
+
+4. following-sibling:It will indentify any sibling which is available lower sider of reference sibling
+                     It only identify the elements in same family tree
+
+            e.g -> //reftag[@tagname='value']/following-sibling::tar_tag[@attribute='value'] 
+            -> //td[text()='6005']/following-sibling::td
+
+5. preceding: Using preceding method we can identify any element which is available upper side of reference element in the DOM.
+        e.g -> //reftag[@tagname='value']/preceding::tar_tag[@attribute='value']
+            -> //label[text()='From City']/preceding::h1[@class='entry-title']
+
+6. preceding-sibling: It will indentify any sibling which is available upper sider of reference sibling
+             It only identify the elements in same family tree
+
+            e.g -> //reftag[@tagname='value']/preceding-sibling::tar_tag[@attribute='value'] 
+           -> //td[text()='6005']/preceding-sibling::td/input
+
+
+###############################################################
+CSS Selectors 
+1. By class name : when element has class attribute then we can indentify the element with .classname.
+                 -> header > h1.entry-title
+                 -> .oxd-input.oxd-input--focus
+                 -> .oxd-button
+                 -> button.oxd-button
+
+2. By id attribute. : User can indentify element with id attribute #id
+                -> #fromcity
+                -> #billing_name
+                -> #billing_phone
+                -> #eamil
+                -> input#eamil
+
+3. By navigation. (Least recommended)
+                -> div > ul> li> input[value=radio_678]
+
+4. By attribute values : 
+                -> input[placeholder="Username"]
+                -> input[placeholder="Password"]
+                -> button[type="submit"]

@@ -1,0 +1,66 @@
+1. Create one folder with the name AI-automation-project. 
+2. Open VS Code in the dedicated automation project folder. .
+3. Open the terminal in the AI automation project folder. 
+4. Install Playwright with the given command: 
+   `npm init playwright@latest`. 
+5. Go with all default options while installing Playwright. 
+   -> Continue pressing the Enter button and complete the installation. 
+
+6. Install Playwright custom agent with the below. 
+   -> npx playwright init-agents --loop=vscode
+
+7. Once agent installation is done, inside the .git folder, 
+   there will be one agent folder. All the playwright agent MD files will
+    be available inside the agents folder. 
+    There are three agent files:
+    1. Playwright test generator
+    2. Playwright test healer
+    3. Playwright test planner
+
+8. There is a .vscode folder, and inside it, one file exists: mcp.json. 
+   This is the MCP server configuration file. There, 
+   we have to start the configurations for the MCP server. 
+   -> Go to the .VSCode folder and open the mcp.json file inside it. 
+   -> Click on the Start button to start the Playwright MCP server.
+
+9. Select Playwright Test Planner agent in the AI chat window 
+  and provide the below prompt. It will go through the entire 
+  website and create an end-to-end test plan in an .md file. 
+
+  agent name: playwright-test-planner.
+  prompt : Write a comprehensive end-to-end test plan for the given website and go through each and every component of the website. Make sure nothing is missed. 
+   https://www.saucedemo.com/
+
+  it will create saucedemo-e2e-test-plan.md file in specs folder.
+
+--------------------------------
+  agent name: playwright-test-generator
+  prompt : impliment ### 1. Authentication and Account Variants
+Create a pom structure, and make sure the following important folders are outside of the test folder:
+- test
+- test data
+- fixtures
+- pages
+- utils
+This means the test folder, test data, fixtures, pages, and utils folder should be on the same level. Maintain the coding standard as per the enterprise-level framework.
+
+
+--------------------------------
+agent-name : playwright-test-healer
+Execute all the test cases and fix the failures. 
+
+------------------------------------
+New prompt for generator agent
+impliment ### 2. Inventory, Product Details, and Sorting
+- Create a excel file and add test in that file
+- Create a utility to read values from excel
+- Create a Page Manager where all pages are connected > create fixture > access page manager in fixture > access fixture into test files
+
+-------------------------------------
+// prompt to configure environment file.
+
+Different environment file for test environment, production environment, and stage environment, and read the credentials values from the environment file. 
+
+// Prompt to integrate allure report
+- select default agent 
+- Integrate allure report and execute test cases, and generate allure report

@@ -1,0 +1,347 @@
+1 July 2026
+Variable 
+- Repeat all variable fundamentals don't read the variable, write each and everyone single line.
+###################################################################################################
+Practice on Operators.
+
+01. Write a JavaScript program to add two numbers entered by the user.
+02. Write a JavaScriptprogram to subtract one number from another.
+03. Write a JavaScriptprogram to multiply two numbers.
+04. Write a JavaScriptprogram to divide two numbers and print the quotient.
+05. Write a JavaScriptprogram to find the remainder when one number is divided by another.
+06. Write a JavaScriptprogram to calculate the square of a number using the exponent operator.
+07. Write a JavaScriptprogram to calculate the cube of a number.
+08. Write a JavaScriptprogram to calculate the average of three numbers.
+09. Write a JavaScriptprogram to calculate the area of a rectangle.
+10. Write a JavaScript program to Calculate speed. Speed  = Distance / Time
+11. Write a JavaScript program to Calculate the simple interest. (P × R × T) / 100
+12. Write a JavaScript program to Find the perimeter of a rectangle. 2 × (length + width)
+13. Write a JavaScript program to Calculate distance traveled. Distance = Speed × Time
+14. Write a JavaScript program to Calculate profit. Profit = Selling Price - Cost Price
+15. Write a JavaScript program to Calculate the area of a circle. π × r²
+16. Write a JavaScript program to Find the circumference of a circle. Circumference = 2 × π × r
+17. Write a JavaScript program to Calculate the area of a triangle. (base × height) / 2
+18. Write a JavaScript program to Find the area of a square. Area = side²
+19. Write a JavaScript program to Find the perimeter of a square. Perimeter = 4 × side
+20. Write a JavaScript program to Calculate the volume of a cube. Volume = side³
+21. Write a JavaScript program to Find the volume of a cuboid. Volume = length × width × height
+22. Write a JavaScript program to Convert temperature from Celsius to Fahrenheit. F = (C × 9/5) + 32
+23. Write a JavaScript program to Convert temperature from Fahrenheit to Celsius.C = (F - 32) × 5/9
+24. Write a JavaScript program to Calculate the percentage of obtained marks. Percentage = (obtained / total) × 100
+25. Write a JavaScript program to Find the average of three numbers. Average = (a + b + c) / 3
+26. Write a JavaScript program to find the roots of a quadratic equation. x = (-b ± √(b² - 4ac)) / (2a)
+27. Write a JavaScript program to Calculate the Body Mass Index (BMI). BMI = weight / (height × height)
+29. Write a JavaScript program to Calculate the final price after discount.
+Formula:
+Discount Amount = (Price × Discount%) / 100
+Final Price = Price - Discount Amount
+30. Write a JavaScript program to Calculate the marks percentage
+
+###################################################
+// 7 July 2026
+If condition programs for practice
+
+01. Write a JavaScript program to check whether a number is positive.
+02. Write a JavaScript program to check whether a number is negative.
+03. Write a JavaScript program to check whether a number is zero.
+04. Write a JavaScript program to check whether a number is even.
+05. Write a JavaScript program to check whether a number is odd.
+06. Write a JavaScript program to check whether a person is eligible to vote (age ≥ 18).
+07. Write a JavaScript program to check whether a student has passed (marks ≥ 35).
+08. Write a JavaScript program to check whether a temperature is above 30°C.
+09. Write a JavaScript program to check whether a number is greater than 100.
+10. Write a JavaScript program to check whether a salary is greater than ₹50,000.
+11. Write a JavaScript program to Find the largest of two numbers.
+12. Write a JavaScript program to Find the smallest of two numbers.
+13. Write a JavaScript program to Check whether two numbers are equal.
+14. Write a JavaScript program to Check whether three sides can form a triangle.
+15. Write a JavaScript program to Check whether a number lies between 1 and 100.
+16. Write a JavaScript program to Check whether a person is eligible for a driving license (age ≥ 18).
+17. Write a JavaScript program to Check whether a product qualifies for free delivery (price > ₹999).
+18. Write a JavaScript program to Check whether a customer gets a discount (purchase amount > ₹ 5000 )
+19. Write a JavaScript program to check whether a temperature is above 30°C.
+20. Write a JavaScript program to check whether a number is greater than 100.
+21. Write a JavaScript program to check whether a salary is greater than ₹50,000.
+
+####################################################################################################
+8 July 2026.
+
+22. Write a JavaScript program to Check whether a number is divisible by both 3 and 5.
+23. Write a JavaScript program to Check whether a number is a multiple of 7.
+24. Write a JavaScript program to Check whether a number is within a specified range.
+25. Write a JavaScript program to Check whether a student's marks qualify for a merit certificate.
+26. Write a JavaScript program to Check whether an order is eligible for express delivery.
+27. Write a JavaScript program to Check whether a customer is a premium member.
+28. Write a JavaScript program to Check whether a bank withdrawal amount exceeds the available balance.
+29. Write a JavaScript program to Check whether a train ticket is confirmed based on waiting list number.
+30. Write a JavaScript program to Check whether a user has entered the correct PIN.
+31. Write a JavaScript program to Check whether a file size exceeds the upload limit.
+
+###################################################################################################
+9 JUly 2026: 
+For loop programs for practice.
+
+01. Write a JavaScript program to Find the sum of numbers from 1 to 10.
+02. Write a JavaScript program to Find the sum of numbers from 1 to 100.
+03. Write a JavaScript program to Find the sum of all even numbers from 1 to 100.
+04. Write a JavaScript program to Find the sum of all odd numbers from 1 to 100.
+05. Write a JavaScript program to Calculate the average of numbers from 1 to 20.
+06. Write a JavaScript program to Find the sum of multiples of 3 between 1 and 50.
+07. Write a JavaScript program to Find the sum of multiples of 7 between 1 and 100
+08. Write a JavaScript program to Print the multiplication table of 5.
+09. Write a JavaScript program to Print the multiplication table of any number entered by the user.
+10. Write a JavaScript program to Print multiplication tables from 1 to 10.
+11. Write a JavaScript program to Print multiplication tables from 2 to 20.
+
+######################################################################################################
+10 JUly 2026:
+
+write a program to print following patterns
+* * * * * * *
+      *
+      *
+      *
+* * * * * * *
+
+
+*       *
+*       *
+*       *
+*       *
+*       * 
+  * * *
+
+###############################
+14 July 2026
+-> Function Practice Programs :
+
+Write a function to determine whether a number is even or odd.
+Write a function to find the larger of two numbers.
+Write a function to find the largest of three numbers.
+Write a function to determine whether a year is a leap year.
+Write a function to check whether a number is positive, negative, or zero.
+Write a function to check whether a character is a vowel.
+Write a function to determine whether a number is divisible by both 3 and 5.
+Write a function to calculate a student's grade based on marks.
+Write a function to check whether a number is a multiple of 10.
+Write a function to determine whether a person is eligible to vote.
+
+Write a function to print numbers from 1 to N.
+Write a function to print numbers from N to 1.
+Write a function to print the multiplication table of a given number.
+Write a function to calculate the sum of numbers from 1 to N.
+Write a function to calculate the factorial of a number.
+##########################################################################################################
+13 July 2026
+function program Practice
+
+write a program in function to check given is odd or even and return the output
+write a program in function to all even values from 1 to 50.
+write a program in function get all value which are divisible 5 and 7
+
+
+##########################################################################################################
+27 July 2026 : Array scenarios based programs to practice.
+
+1. Student Marks Analysis
+Scenario
+A teacher has stored the marks of students in an array. Find the highest mark.
+
+Input
+[65, 78, 92, 55, 88]
+
+Expected Output
+Highest Marks: 92
+___________________________
+2. Employee Salary Increment
+Scenario
+
+An HR department wants to increase every employee's salary by 10%.
+
+Input
+
+[25000, 32000, 45000]
+
+Expected Output
+
+[27500, 35200, 49500]
+___________________________
+3. Find Failed Students
+Scenario
+
+Students scoring less than 35 are considered failed.
+
+Input
+
+[90, 25, 67, 18, 45, 30]
+
+Expected Output
+
+[25, 18, 30]
+___________________________
+4. Product Price Filter
+Scenario
+
+Display all products costing more than $100.
+
+Input
+
+[50, 120, 90, 300, 150]
+
+Expected Output
+
+[120, 300, 150]
+___________________________
+5. Customer Shopping Bill
+Scenario
+
+Calculate the total bill amount.
+
+Input
+
+[250, 450, 300, 500]
+
+Expected Output
+
+Total Bill: 1500
+___________________________
+6. Remove Duplicate Customer IDs
+Scenario
+
+Remove duplicate customer IDs from the array.
+
+Input
+
+[101, 102, 103, 101, 104, 102]
+
+Expected Output
+
+[101, 102, 103, 104]
+___________________________
+7. Website Visitor Count
+Scenario
+
+Find the average number of daily visitors.
+
+Input
+
+[1200, 1400, 1300, 1500, 1700]
+
+Expected Output
+
+Average Visitors: 1420
+___________________________
+8. Online Store Inventory
+Scenario
+
+Check whether Product ID 105 exists.
+
+Input
+
+[101, 102, 103, 104]
+
+Expected Output
+
+Product Not Found
+___________________________
+9. Company Departments
+Scenario
+
+Sort department names alphabetically.
+
+Input
+
+["HR", "Testing", "Development", "Support"]
+
+Expected Output
+
+["Development", "HR", "Support", "Testing"]
+___________________________
+10. Reverse Delivery Route
+Scenario
+
+Reverse the delivery route.
+
+Input
+
+["Delhi", "Agra", "Jaipur", "Mumbai"]
+
+Expected Output
+
+["Mumbai", "Jaipur", "Agra", "Delhi"]
+___________________________
+11. Remove Cancelled Orders
+Scenario
+
+Remove order ID 103 from the array.
+
+Input
+
+[101, 102, 103, 104, 105]
+
+Expected Output
+
+[101, 102, 104, 105]
+___________________________
+12. Add New Employee
+Scenario
+
+Add employee ID 106 to the employee list.
+
+Input
+
+[101, 102, 103]
+
+Expected Output
+
+[101, 102, 103, 106]
+___________________________
+13. Highest Monthly Sales
+Scenario
+
+Find the maximum sales amount.
+
+Input
+
+[12000, 18000, 25000, 16000]
+
+Expected Output
+
+Highest Sales: 25000
+___________________________
+14. Lowest Temperature
+Scenario
+
+Find the lowest recorded temperature.
+
+Input
+
+[34, 29, 41, 25, 38]
+
+Expected Output
+
+Lowest Temperature: 25
+___________________________
+15. Even Product IDs
+Scenario
+
+Display only even product IDs.
+
+Input
+
+[101, 102, 103, 104, 105, 106]
+
+Expected Output
+
+[102, 104, 106]
+
+################################################
+# 30 July 2026
+// solve all practice program for Object from given link
+https://sqatools.in/javascript-object-programs/
+
+##################################################
+// 8 Sept 2026
+// completed end to end flow automation of this Website
+-> https://www.saucedemo.com/
+-> https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

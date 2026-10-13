@@ -1,0 +1,52 @@
+API (Application Programming Interface)
+
+Two types of API on the architecture level 
+1. REST API :
+            - Rest support JSON as input. 
+            - When we talk about the web app and the mobile app, generally, application developers use REST API. 
+            - Rest APIs are lightweight, right? It does not contain any cache. 
+
+2. SOAP API :
+            - API supports XML, JSON, and normal text as an input value. 
+            - In an enterprise-level product where security is a concern, they prefer to use a SOAP API. 
+            - Web APIs are heavier than REST APIs. It contains cache values there, and it saves the state. 
+
+
+There are different types of APIs on the basis of usage:
+1. Public API : Public APIs are available to access by anyone anywhere. 
+
+2. Subscription-based API : Subscription-based APIs are available only for those who subscribe to the API 
+                       service. Nowadays, microservices, Google Map, AWS, and Azure all work on a 
+                       subscription-based API model. Their users have to pay something to use the services 
+                       of the API. 
+
+3. Private or internal API : Private APIs or internal APIs are limited to any application- or 
+                     organizational-level access. 
+
+
+There are three layers of application development:
+1. Presentation layer
+2. Business layer 
+                  (API works on a business layer where the developer writes code in a 
+                   different programming language. API is nothing but an interface to access
+                  the code logic they have written behind the scenes in programs that we can 
+                  access through the URL. )
+3. Database layer
+
+
+# We will automate the REST API. To automate the REST API, 
+internally it uses the protocol that is called the HTTP protocol. 
+
+There Are some methods available in the HTTP protocol that help us to execute the API?
+1. GET method : This method helps us to get the information from the server. 
+2. POST : Post method helps to create a new entry to the server. 
+3. PUT : Put method helps us to update multiple pieces of information or properties of existing information in the server. 
+4. PATCH method : The `patch` method helps us to modify one single property or a specific property of the data. 
+5. DELETE method : Delete method: delete the entire data from the server. 
+
+# There are different types of status codes:
+1. 100 to 199 : This is for informational status codes. 
+2. 200 to 299 : Success operation status code 
+3. 300 to 399 : Then redirectional status code 
+4. 400 to 499 : Client error. 
+5. 500 to 599 : Server error. 
